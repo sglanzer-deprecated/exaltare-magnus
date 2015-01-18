@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'exaltare-magnus',
+    podModulePrefix: 'exaltare-magnus/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

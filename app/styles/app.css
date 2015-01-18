@@ -1,3 +1,48 @@
-html, body {
-  margin: 20px;
+html {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+}
+
+.exaltare-magnus {
+}
+
+.row {
+  display: block;
+}
+
+.tile {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  margin-right: 1px;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.tile--neutral {
+  background-color: #808080;
+}
+
+.tile--neutral-1 {
+  background-color: #008027;
+}
+
+.tile--neutral-2 {
+  background-color: #002580;
+}
+
+.tile--neutral-3 {
+  background-color: #800061;
+}
+
+.tile--neutral-4 {
+  background-color: #800001;
 }
